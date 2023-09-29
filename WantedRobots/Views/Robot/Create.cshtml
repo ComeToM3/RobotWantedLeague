@@ -1,0 +1,27 @@
+@model WantedRobots.Models.Robot
+
+<h1>Ajouter un Robot</h1>
+
+<form asp-action="Create">
+    <div class="form-group">
+        <label for="Nom">Nom :</label>
+        <input type="text" class="form-control" asp-for="Nom">
+    </div>
+    <div class="form-group">
+        <label for="Poids">Poids :</label>
+        <input type="text" class="form-control" asp-for="Poids">
+    </div>
+    <div class="form-group">
+        <label for="Taille">Taille :</label>
+        <input type="text" class="form-control" asp-for="Taille">
+    </div>
+    <div class="form-group">
+        <label for="Pays">Pays :</label>
+        <input type="text" class="form-control" asp-for="Pays">
+    </div>
+    <div class="form-group">
+        <label for="Continent">Continent :</label>
+        <input type="text" class="form-control" asp-for="Continent">
+    </div>
+    <button type="submit" class="btn btn-primary">Ajouter</button>
+</form>

@@ -1,0 +1,157 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/cometom3/linux-sauvegarde-12sept2023/aspnet/WantedRobots/WantedRobots.Tests/WantedRobots.Tests.csproj": {}
+  },
+  "projects": {
+    "/home/cometom3/linux-sauvegarde-12sept2023/aspnet/WantedRobots/WantedRobots.Tests/WantedRobots.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/cometom3/linux-sauvegarde-12sept2023/aspnet/WantedRobots/WantedRobots.Tests/WantedRobots.Tests.csproj",
+        "projectName": "WantedRobots.Tests",
+        "projectPath": "/home/cometom3/linux-sauvegarde-12sept2023/aspnet/WantedRobots/WantedRobots.Tests/WantedRobots.Tests.csproj",
+        "packagesPath": "/home/cometom3/.nuget/packages/",
+        "outputPath": "/home/cometom3/linux-sauvegarde-12sept2023/aspnet/WantedRobots/WantedRobots.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/cometom3/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/home/cometom3/linux-sauvegarde-12sept2023/aspnet/WantedRobots/WantedRobots/WantedRobots.csproj": {
+                "projectPath": "/home/cometom3/linux-sauvegarde-12sept2023/aspnet/WantedRobots/WantedRobots/WantedRobots.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.2.10, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.2.10, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.7.1, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/cometom3/linux-sauvegarde-12sept2023/aspnet/WantedRobots/WantedRobots/WantedRobots.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/cometom3/linux-sauvegarde-12sept2023/aspnet/WantedRobots/WantedRobots/WantedRobots.csproj",
+        "projectName": "WantedRobots",
+        "projectPath": "/home/cometom3/linux-sauvegarde-12sept2023/aspnet/WantedRobots/WantedRobots/WantedRobots.csproj",
+        "packagesPath": "/home/cometom3/.nuget/packages/",
+        "outputPath": "/home/cometom3/linux-sauvegarde-12sept2023/aspnet/WantedRobots/WantedRobots/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/cometom3/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Htmx": {
+              "target": "Package",
+              "version": "[1.3.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.Cookies": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

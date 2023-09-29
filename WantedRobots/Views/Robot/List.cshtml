@@ -1,0 +1,84 @@
+@* @model IEnumerable<Robot> *@
+@model RobotAgentViewModel
+
+<h1>Liste de Robots</h1>
+
+<div class="form-group search-form">
+    <input type="text" id="searchInput" class="form-control" placeholder="Rechercher un robot par nom et pays...">
+</div>
+
+<ul class="list-group">
+    @foreach (var robot in Model.Robot)
+    {
+        <li class="robot-item">
+            <a href="#" class="toggle-details">@robot.Nom (@robot.Pays) </a>
+
+            <div class="details hidden">
+                <div class="robot-info">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item robot-image">
+                            <img src="https://robohash.org/@(robot.Nom)" alt="Robot Image" />
+                        </li>
+                        <li class="list-group-item"><strong>Nom:</strong> @robot.Nom</li>
+                        <li class="list-group-item"><strong>Poids:</strong> @robot.Poids kg</li>
+                        <li class="list-group-item"><strong>Pays:</strong> @robot.Pays</li>
+                        <li class="list-group-item"><strong>Continent:</strong> @robot.Continent</li>
+
+                        <li class="list-group-item">
+                            <a asp-action="Edit" asp-route-id="@robot.Id" class="btn btn-outline-primary btn-sm">Modifier</a>
+                        </li>
+                        <form method="post" asp-action="Delete" asp-route-id="@robot.Id" class="list-group-item">
+                            @Html.AntiForgeryToken()
+                            <button type="submit" class="btn btn-outline-danger btn-sm">Supprimer</button>
+                        </form>
+                    </ul>
+                </div>
+
+                <div class="agent-info">
+                    <ul class="list-group list-group-flush">
+                        @if (robot.AgentId != null)
+                        {
+                            var assignedAgent = Model.Agent.FirstOrDefault(agent => agent.Id == robot.AgentId);
+                            if (assignedAgent != null)
+                            {
+                                <li class="list-group-item agent-image">
+                                    <iframe src="https://good-hawk-21.deno.dev/@(assignedAgent.NomAgent)"
+                                        alt="Agent Image"></iframe>
+                                </li>
+                                <li class="list-group-item"><strong>Agent:</strong> @assignedAgent.NomAgent</li>
+                                <li class="list-group-item"><strong>Commentaire:</strong> @robot.Commentaire</li>
+                            }
+                        }
+                        else
+                        {
+                            <li class="list-group-item"><strong>Agent:</strong> Aucun agent associé au robot</li>
+                        }
+
+                        <form method="post" asp-action="AssocierAgentARobot" class="list-group-item agent-form">
+                            @Html.AntiForgeryToken()
+                            <div class="form-group">
+                                <select class="form-control" id="agentId" name="agentId">
+                                    <option value="">Assigner un Agent</option>
+                                    @foreach (var agent in Model.Agent)
+                                    {
+                                        <option value="@agent.Id">@agent.NomAgent (@agent.Continent)</option>
+                                    }
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" id="commentaire" name="commentaire"
+                                    placeholder="Ajouter un commentaire :"></textarea>
+                            </div>
+                            <input type="hidden" id="robotId" name="robotId" value="@robot.Id" />
+                            <button type="submit" class="btn btn-outline-primary btn-sm">Soumettre</button>
+                        </form>
+                    </ul>
+                </div>
+            </div>
+        </li>
+    }
+</ul>
+
+@section Scripts {
+    <script src="~/js/robot-details.js"></script>
+}

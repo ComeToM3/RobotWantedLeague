@@ -1,0 +1,88 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+
+.hidden {
+  display: none;
+}
+
+/* Styles pour la zone de recherche */
+.search-form {
+  padding-bottom: 10px;
+}
+
+/* Styles pour chaque élément de robot */
+.robot-item {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-bottom: 5px;
+  background-color: rgb(226, 214, 214, 0.3);
+  padding: 10px;
+}
+
+/* Styles pour le lien "toggle-details" */
+.toggle-details {
+  display: flex;
+}
+
+/* Styles pour les détails cachés */
+.details {
+  display: none;
+}
+
+/* Styles pour les informations du robot */
+.robot-info {
+  display: inline-block;
+  width: 200px;
+  vertical-align: top;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+/* Styles pour l'image du robot */
+.robot-image img {
+  width: 150px;
+  padding-bottom: 10px;
+}
+
+/* Styles pour les informations de l'agent */
+.agent-info {
+  display: inline-block;
+  width: 200px;
+  vertical-align: top;
+  margin-top: 20px;
+}
+
+/* Styles pour l'image de l'agent */
+.agent-image iframe {
+  width: 150px;
+  padding-bottom: 10px;
+}
+
+/* Styles pour le formulaire de l'agent */
+.agent-form {
+  padding-left: 10px;
+}
+
+/* Autres styles personnalisés ici */

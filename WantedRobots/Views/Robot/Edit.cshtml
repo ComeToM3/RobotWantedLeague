@@ -1,0 +1,31 @@
+@model WantedRobots.Models.Robot
+
+<h1>Modifier un Robot</h1>
+
+<form asp-action="Edit">
+    <input type="hidden" asp-for="Id" />
+
+    <div class="form-group">
+        <label asp-for="Nom">Nom :</label>
+        <input type="text" class="form-control" asp-for="Nom">
+    </div>
+    <div class="form-group">
+        <label asp-for="Poids">Poids :</label>
+        <input type="text" class="form-control" asp-for="Poids">
+    </div>
+    <div class="form-group">
+        <label asp-for="Taille">Taille :</label>
+        <input type="text" class="form-control" asp-for="Taille">
+    </div>
+    <div class="form-group">
+        <label asp-for="Pays">Pays :</label>
+        <input type="text" class="form-control" asp-for="Pays">
+    </div>
+    <div class="form-group">
+        <label asp-for="Pays">Continent :</label>
+        <input type="text" class="form-control" asp-for="Continent">
+    </div>
+    <button type="submit" class="btn btn-primary">Modifier</button>
+    <a asp-action="List" class="btn btn-primary">Retour</a>
+    
+</form>
