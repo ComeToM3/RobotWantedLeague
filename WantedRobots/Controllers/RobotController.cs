@@ -15,8 +15,9 @@ public class RobotController : Controller
     }
    public IActionResult Index()
 {
+    var robots = _context.Robots.ToListAsync();
 
-    return View();
+    return View(robots);
 }
 
 
