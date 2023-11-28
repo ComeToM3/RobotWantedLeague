@@ -9,57 +9,57 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WantedRobots
 build_property.RootNamespace = WantedRobots
-build_property.ProjectDir = /home/cometom3/linux-sauvegarde-12sept2023/aspnet/WantedRobots/WantedRobots/
+build_property.ProjectDir = /home/cometom3/WebDevPro/gitClones/RobotWantedLeague/WantedRobots/
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /home/cometom3/linux-sauvegarde-12sept2023/aspnet/WantedRobots/WantedRobots
+build_property.MSBuildProjectDirectory = /home/cometom3/WebDevPro/gitClones/RobotWantedLeague/WantedRobots
 build_property._RazorSourceGeneratorDebug = 
 
-[/home/cometom3/linux-sauvegarde-12sept2023/aspnet/WantedRobots/WantedRobots/Views/Home/Index.cshtml]
+[/home/cometom3/WebDevPro/gitClones/RobotWantedLeague/WantedRobots/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/cometom3/linux-sauvegarde-12sept2023/aspnet/WantedRobots/WantedRobots/Views/Home/Privacy.cshtml]
+[/home/cometom3/WebDevPro/gitClones/RobotWantedLeague/WantedRobots/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/cometom3/linux-sauvegarde-12sept2023/aspnet/WantedRobots/WantedRobots/Views/Robot/Agent.cshtml]
+[/home/cometom3/WebDevPro/gitClones/RobotWantedLeague/WantedRobots/Views/Robot/Agent.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUm9ib3QvQWdlbnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/cometom3/linux-sauvegarde-12sept2023/aspnet/WantedRobots/WantedRobots/Views/Robot/Create.cshtml]
+[/home/cometom3/WebDevPro/gitClones/RobotWantedLeague/WantedRobots/Views/Robot/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUm9ib3QvQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/cometom3/linux-sauvegarde-12sept2023/aspnet/WantedRobots/WantedRobots/Views/Robot/Edit.cshtml]
+[/home/cometom3/WebDevPro/gitClones/RobotWantedLeague/WantedRobots/Views/Robot/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUm9ib3QvRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/cometom3/linux-sauvegarde-12sept2023/aspnet/WantedRobots/WantedRobots/Views/Robot/Index.cshtml]
+[/home/cometom3/WebDevPro/gitClones/RobotWantedLeague/WantedRobots/Views/Robot/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUm9ib3QvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/cometom3/linux-sauvegarde-12sept2023/aspnet/WantedRobots/WantedRobots/Views/Robot/List.cshtml]
+[/home/cometom3/WebDevPro/gitClones/RobotWantedLeague/WantedRobots/Views/Robot/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUm9ib3QvTGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/cometom3/linux-sauvegarde-12sept2023/aspnet/WantedRobots/WantedRobots/Views/Shared/Error.cshtml]
+[/home/cometom3/WebDevPro/gitClones/RobotWantedLeague/WantedRobots/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/cometom3/linux-sauvegarde-12sept2023/aspnet/WantedRobots/WantedRobots/Views/Shared/_ValidationScriptsPartial.cshtml]
+[/home/cometom3/WebDevPro/gitClones/RobotWantedLeague/WantedRobots/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/cometom3/linux-sauvegarde-12sept2023/aspnet/WantedRobots/WantedRobots/Views/_ViewImports.cshtml]
+[/home/cometom3/WebDevPro/gitClones/RobotWantedLeague/WantedRobots/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/cometom3/linux-sauvegarde-12sept2023/aspnet/WantedRobots/WantedRobots/Views/_ViewStart.cshtml]
+[/home/cometom3/WebDevPro/gitClones/RobotWantedLeague/WantedRobots/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/cometom3/linux-sauvegarde-12sept2023/aspnet/WantedRobots/WantedRobots/Views/Shared/_Layout.cshtml]
+[/home/cometom3/WebDevPro/gitClones/RobotWantedLeague/WantedRobots/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-cnjpj052bd
